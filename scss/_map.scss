@@ -1,0 +1,15 @@
+
+
+$coloresPrincipales:(
+    colorPrimario:blue,
+    colorSecundario:yellow,
+    colorPrimario2:white,
+    colorSecundrio2:black
+);
+
+@each $clave, $valor in $coloresPrincipales {
+    .#{$clave}{
+        color: $valor
+    }
+    
+}
